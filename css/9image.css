@@ -1,0 +1,95 @@
+body {
+    background: url(https://cdn.wallpapersafari.com/83/16/TjRiwH.jpg);
+    background-repeat: no-repeat;
+	background-attachment: fixed;
+	background-size: cover;
+}
+.header {
+    background: url(https://i.pinimg.com/originals/1c/ab/dd/1cabddaa3fd626275b63a6a261e4c3a7.jpg);
+    background-repeat: no-repeat;
+	background-attachment: fixed;
+	background-size: cover;
+    text-align: center;
+    padding: 1rem;
+}
+#pheader {
+    color: mintcream;
+}
+.topnav {
+    overflow: hidden;
+    background-color: #d7c8c9;
+    margin-top: 0.5rem;
+    padding: 5px;
+}
+.topnav a {
+    float: left;
+    display: block;
+    color: purple;
+    text-align: center;
+    padding: 1rem 0.8rem;
+    text-decoration: none;
+}
+.topnav a:hover {
+    background-color: teal;
+    color: whitesmoke;
+}
+#h2 {
+    background-color: #eee8e8;
+    padding: 5px;
+}
+.column {
+    float: left;
+    padding: 10px;
+    margin-top: 0.5rem;
+}
+.column.side {
+    width:25%;
+}
+.pside {
+    padding: 5px;
+    background-color: #c0d3d8;
+}
+.column.middle {
+    width: 50%;
+}
+.pmiddle {
+    text-align: center;
+    padding: 60px;
+    background-color: #e9ccc4;
+}
+.row::after {
+    content: "";
+    display: table;
+    clear: both;
+}
+* {
+    box-sizing: border-box;
+}
+img {
+    width: 175px;
+    height: 175px;
+}
+.footer {
+    background-color: #faf3eb;
+    padding: 10px;
+    text-align: center;
+    color: steelblue;
+}
+@media screen and (max-width:414px) {
+    .column.side .column.middle {
+        width: 100%;
+    }
+}
+table {
+    width: 800px;
+}
+table, tr, th, td {
+    border-style: dotted;
+    border: 8px solid pink;
+    border-collapse: collapse;
+    text-align: center;
+}
+img {
+    width: 200px;
+    height: 200px;
+}
